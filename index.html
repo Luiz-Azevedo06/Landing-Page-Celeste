@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Celeste - Landing Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: #fff;
+    }
+    nav {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 15px 30px;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1rem;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ffcc00;
+    }
+    header {
+      text-align: center;
+      padding: 80px 20px;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+    header p {
+      font-size: 1.3rem;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    section {
+      padding: 50px 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+    section ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    section ul li {
+      margin-bottom: 10px;
+      font-size: 1.1rem;
+    }
+    .footer-images {
+      display: flex;
+      justify-content: center;
+      gap: 120px;
+      margin: 140px 0 20px 0;
+      flex-wrap: wrap;
+    }
+    .footer-images img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+      transition: transform 0.3s;
+    }
+    .footer-images img:hover {
+      transform: scale(1.1);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      background: rgba(0, 0, 0, 0.4);
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      section h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="personagem.html">Personagem</a>
+    <a href="sobre.html">Sobre</a>
+  </nav>
+
+  <header>
+    <h1>Bem-vindo ao Mundo de Celeste</h1>
+    <p>Explore lugares desafiadores e divertidos com Madeline.</p>
+  </header>
+
+  <section>
+    <h2>Por que jogar Celeste?</h2>
+    <ul>
+      <li>🌟 História emocionante sobre superação e saúde mental</li>
+      <li>🎮 Jogabilidade precisa e desafiadora para quem gosta de plataforma</li>
+      <li>🎶 Trilha sonora marcante composta por Lena Raine</li>
+      <li>🎨 Pixel art charmosa e cheia de personalidade</li>
+      <li>🔓 Conteúdo extra e segredos para explorar por horas</li>
+    </ul>
+  </section>
+
+  <div class="footer-images">
+    <img src="dash.png" alt="Madeline Dash">
+    <img src="celeste.jpg" alt="Logo">
+    <img src="subindo.jpeg" alt="Madeline Subindo">
+  </div>
+
+  <footer>
+    &copy; 2025 Luiz Fernando de Azevedo Gomes. Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
